@@ -1,0 +1,12 @@
+body {
+    height: 100svh;
+}
+
+div{
+    border: 5px solid black;
+}
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
