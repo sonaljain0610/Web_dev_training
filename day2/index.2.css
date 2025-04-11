@@ -1,10 +1,10 @@
-.card{
+/* .card{
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 30px;
     width: 80%;
     margin: auto;
-}
+} */
 .up{
     gap: 10px;
     margin-bottom: 50px;
@@ -13,6 +13,26 @@
     justify-content: space-between;
 }
 .card{
-    border-radius: 10px;
+    display: grid;
     border: 5px solid black;
+    width: 300px;
+  padding: 16px;
+  margin: 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.card{
+    margin-left: 300px;
+}
+.sidebar{
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+searchbar{
+    display: flex;
+    justify-content: space-between;
 }
